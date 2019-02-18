@@ -7,17 +7,16 @@
     "start:menu": "electron menu.js",
     "start": "electron main.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:mac":
-      "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=release-builds"
+    "build:mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=release-builds"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^1.7.11",
-    "electron-packager": "^10.1.2"
+    "electron": "^4.0.5",
+    "electron-packager": "^13.0.1"
   },
   "dependencies": {
-    "codemirror": "^5.33.0",
+    "codemirror": "^5.43.0",
     "jailed": "^0.3.1",
     "menubar": "^5.2.3"
   }
