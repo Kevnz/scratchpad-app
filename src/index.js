@@ -13,7 +13,9 @@ const css = require("codemirror/lib/codemirror.css");
 const theme = require("codemirror/theme/cobalt.css");
 const sandbox = require("./sandbox");
 
+require("./base.css");
 require("./main.css");
+
 const myCodeMirror = CodeMirror.fromTextArea(document.getElementById("cd"), {
   mode: "javascript",
   theme: "cobalt",

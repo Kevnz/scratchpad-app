@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
+  "bin": {},
   "scripts": {
     "start:menu": "electron menu.js",
     "start": "electron main.js",
